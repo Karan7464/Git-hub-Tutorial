@@ -17,3 +17,7 @@ GLOBAL>> when we want to work with only one account(easy way of expalning)<br>
 git config --global user.name "My name"<br>
 git config --global user.email "someone@email.com"<br>
 git config --list<br>
+<h3>
+  Clone & Status
+</h3>
+<h4>Clone:</h4>When we want to copy on local(latop/pc) from remote(github).<br>
