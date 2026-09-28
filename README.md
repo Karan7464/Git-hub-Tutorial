@@ -13,7 +13,7 @@ Two steps:<br>
 1.ADD (skip this step when we are on github already like now.)<br>
 2.COMMIT
 <h3>Configuring Git</h3>
-GLOBAL>> when we want to work with one account(easy way of expalning)<br>
+GLOBAL>> when we want to work with only one account(easy way of expalning)<br>
 git config --global user.name "My name"<br>
 git config --global user.email "someone@email.com"<br>
 git config --list<br>
