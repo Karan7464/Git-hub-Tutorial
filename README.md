@@ -26,3 +26,12 @@ entre in the main folder by cd <name>>tab change directory.<br>
 <h4>Status:</h4>
 displays the state of the code<br>
 git status<br>
+<h5>Types:</h5>
+<b>untracked</b>
+new files taht git dosen't yet track<br>
+<b>modified</b>
+changed<br>
+<b>staged</b>
+file ready to commit<br>
+<b>unmodified</b>
+unchanged<br>
