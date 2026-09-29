@@ -22,5 +22,3 @@ git config --list<br>
 </h3>
 <h4>Clone:</h4>When we want to copy a repository on local(latop/pc) from remote(github).<br>
 git clone <b>link</b>
-
-
