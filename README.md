@@ -27,11 +27,21 @@ entre in the main folder by cd <name>>tab change directory.<br>
 displays the state of the code<br>
 git status<br>
 <h5>Types:</h5>
-<b>untracked</b>
+<b>untracked</b><br>
 new files taht git dosen't yet track<br>
-<b>modified</b>
+<b>modified</b><br>
 changed<br>
-<b>staged</b>
+<b>staged</b><br>
 file ready to commit<br>
-<b>unmodified</b>
+<b>unmodified</b><br>
 unchanged<br>
+<h3>Add & commit</h3>
+<h4>add-</h4>
+adds new or changed files in your working directory to the Git staging area.<br>
+git add <b>file name or . for all</b><br>
+<h4>commit-</h4>
+it is the ecord of change<br>
+git commit -m "some msg"<br>
+<h3>Push Command</h3>
+push- upload local repo content to remote repo<br>
+git push origin main<br>
