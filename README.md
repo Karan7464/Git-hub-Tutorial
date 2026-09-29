@@ -2,7 +2,7 @@
 Backend API for an Exam Management Portal built using Flask, SQLAlchemy, and SQLite.
 <br>
 #-------------------------------------------------------------------------
-<b>Github Tutorial</b><br>
+<br><b>Github Tutorial</b><br>
 <h3>Git</h3>
 Version Conrol System is a toolss that helps track changes in code>> Git is one of those.<br>
 -popular, free, open source, fast, scalable etc.<br>
@@ -21,6 +21,8 @@ git config --list<br>
   Clone & Status
 </h3>
 <h4>Clone:</h4>When we want to copy a repository on local(latop/pc) from remote(github).<br>
-git clone <b>link</b>
-
-
+git clone <b>link</b><br>
+entre in the main folder by cd <name>>tab change directory.<br>
+<h4>Status:</h4>
+displays the state of the code<br>
+git status<br>
