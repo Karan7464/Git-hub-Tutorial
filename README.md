@@ -21,9 +21,7 @@ git config --list<br>
   Clone & Status
 </h3>
 <h4>Clone:</h4>When we want to copy a repository on local(latop/pc) from remote(github).<br>
-<<<<<<< HEAD
 git clone <b>link</b>
-=======
 git clone <b>link</b><br>
 entre in the main folder by cd <name>>tab change directory.<br>
 <h4>Status:</h4>
@@ -48,4 +46,10 @@ git commit -m "some msg"<br>
 <h3>Push Command</h3>
 push- upload local repo content to remote repo<br>
 git push origin main<br>
->>>>>>> 87c5b6e275a31cd581caab0b2d5f9e6e48869a09
+<h2>Working with local folder.</h2>
+note:cd.., mkdir NAME, cd NAME, ls, ls-a<br>
+git init<br>
+git commi<br>
+<h3>already existing project to github</h3>
+Step1- New repo on github.<br>
+Step2- 
