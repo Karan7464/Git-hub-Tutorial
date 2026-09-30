@@ -43,16 +43,26 @@ git commit -m "some msg"<br>
 <h3>Push Command</h3>
 push- upload local repo content to remote repo<br>
 git push origin main<br>
+  
 <h2>Working with local folder.</h2>
-
 
 note:cd..>> exit from current directory.<br>
 mkdir NAME>> create a new directory. <br>
 cd NAME(TAB)>> entre in that directory.<br>
 ls>> all list in that directory <br>
-ls-a(dir -Force)>> shows hidden files too<br><br>
-git init<br>
-git commit<br>
-<h3>already existing project to github</h3>
-Step1- New repo on github.<br>
-Step2- 
+ls-a(dir -Force)>> shows hidden files too.<br><br>
+<h3>already existing project to upload on github.</h3>
+<h4>Init Command</h4>
+init- used to create a new git repo.<br> >> when we starts our project in local file only.<br>
+Step1- git init(after open that project)<br>
+Step2- Commit.<br>
+Step3- New repo on github.dont add readme.<br>
+Step4- git remote add origin <b>LINK</b><br>
+Step5- git remote -v (to verify remote(git repo))<br>
+Step6- git branch (to check branch)<br>
+Step7- git branch -M main (to rename branch)<br>
+Step8- git push (-u) origin main>> if we want to work on this project for now we can directly use git push.<br> 
+Step9- Adding readme:<br>
+  1.by git hub directly>> add file>> run in terminal >git pull origin main<br>
+  2.add file name README.md >>push
+  
