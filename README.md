@@ -44,6 +44,8 @@ git commit -m "some msg"<br>
 push- upload local repo content to remote repo<br>
 git push origin main<br>
 <h2>Working with local folder.</h2>
+
+
 note:cd..>> exit from current directory.<br>
 mkdir NAME>> create a new directory. <br>
 cd NAME(TAB)>> entre in that directory.<br>
