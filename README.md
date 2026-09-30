@@ -66,3 +66,44 @@ Step9- Adding readme:<br>
   1.by git hub directly>> add file>> run in terminal >git pull origin main<br>
   2.add file name README.md >>push
   
+<h2>Other Important Points</h2>
+  <h3>WorkFlow</h3>
+  <h4>Local Git</h4>
+  Github repo>> clone>> changes>> add>> commit>> push.<br>
+  <h3>Git Branches</h3>
+  Main(master)>> make new branch(copy)>> merge with Main.<br>
+  <h4>Branch Commands</h4>
+  git branch  (to check branch)<br>
+  git branch -M main (to rename branch)<br>
+  git checkout <-branch name-> (to navigate)<br>
+    --git push origin <-branch name-><br>
+  git checkout -b <-new branch name> (to create new branch) <br>
+  git branch -d <-branch name-> (to delete branch)<br>
+  <h3>Merging Code</h3>
+  <h4>Way 1</h4>
+  git diff <-branch name-> (to compare commits,branches, files and more)<br>
+    
+  git merge <-branch name-> (to merge 2 branches)<br>
+  <h4>Way 3</h4>
+  Create a PR<br>
+  <h4>Pull Request</h4>
+  It lets you tell others about changes you have pushed to a branch in a repo of Github.Add from github >> by senior after reviewing<br>
+<h3>Pull Command</h3>
+git pull origin main<br>
+used to fetch and download content from a remote repo and immediately update the local repo to match the content.<br>
+<h3>Resolving Merge Conflicts</h3>
+An event that takes palce whrn Git unable to automatically resolve differences in code between two commits.<br>
+>>>>>>>you know<br>
+git log >>> shows all previous commits<br>
+<h3>Undoing Changes</h3>
+<h4>Case1:staged changes(after add)</h4>
+git reset <-file name-><br>
+git reset<br>
+<h4>Case2:commited changes- for one commit</h4>
+git reset HEAD~1<br>
+<h4>Case3: commited changes- for many commits</h4>
+git reset <-commit hash-><br>
+git reset --hard <-commit hash-> >> to bring those changes to local folder<br>
+<h3>Fork</h3>
+A fork is a new repo that shares code and visibility settings with the original "upstream"repository.<br>
+Fork is a rough copy.
